@@ -22,11 +22,11 @@
     </c:if>
     
     <h2>
-    	<c:if test="${book == null}">
-        	New Book Form
-        </c:if>
     	<c:if test="${book != null}">
         	Edit Book Form
+        </c:if>    	
+    	<c:if test="${book == null}">
+        	New Book Form
         </c:if>
     </h2>
 	<p><label>Title:</label>
